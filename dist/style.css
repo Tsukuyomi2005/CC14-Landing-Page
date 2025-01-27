@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbe8d3;
+    color: #6b4226;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fbe8d3;
+    color: #f4a261;
+  
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #FF6600;
+    margin-top: 0px;
+    margin-right: 850px;
+    margin-bottom: 2px;
+    
+}
+
+header .header-image {
+    width: 65%; /* Make image stretch to fit the container width */
+    height: auto; /* Preserve aspect ratio of the image */
+    margin-top: 20px; /* Adds space between the title and the image */
+    border-radius: 8px; /* Optional: gives the image rounded corners */
+  
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cookie Gallery Styles */
+.cookie-gallery {
+    margin-top: 20px;
+}
+
+.cookie-strip {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Cookie Item Styles */
+.cookie-item {
+    width: 250px;
+    background-color: #d1b7a1; /* Darker beige container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.cookie-item:hover {
+    background-color: #b99f81; /* Darken on hover */
+}
+
+.cookie-item img {
+    width: 200px;  /* Ensure uniform image size */
+    height: 200px; /* Set same height for all images */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cookie-description {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+ul.ingredients {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul.ingredients li {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f4a261;
+    color: #fbe8d3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fbe8d3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
